@@ -18,7 +18,10 @@ main.addEventListener('click', onClick)
 
 // order matters - will always take first for the event
 
-document.addEventListener('online/offline', onClick)
+// document.addEventListener('online/offline', onClick)
 
-document.addEventListener('keydown' , )
+function onKeyDown(event) {
+  console.log(event)
+}
+document.addEventListener('keydown' , onKeyDown)
 
