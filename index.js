@@ -60,3 +60,26 @@ button.addEventListener('click', () => {
   main.appendChild(newP)
 })
 
+const divs = document.querySelectorAll('div')
+
+for (let div of divs) {
+  div.addEventListener('click', (event) =>{
+    console.log(event)
+  })
+}
+// array [div1, div2]
+// for loop iteration 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
