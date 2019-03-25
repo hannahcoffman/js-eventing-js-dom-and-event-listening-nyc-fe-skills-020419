@@ -69,6 +69,7 @@ for (let div of divs) {
 }
 // array [div1, div2]
 // for loop iteration 
+// event bubbling - cause of a lot of bugs in front end applications 
 
 
 
