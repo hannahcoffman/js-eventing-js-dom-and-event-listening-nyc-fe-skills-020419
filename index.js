@@ -14,4 +14,8 @@ main.addEventListener('click', onClick)
 
 // document level evetns: online/offline, global help button/scrolling 
 
+// order matters - will always take first for the event
+
 document.addEventListener('online/offline', onClick)
+
+
