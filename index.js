@@ -25,6 +25,8 @@ function onKeyDown(event) {
 }
 document.addEventListener('keydown' , onKeyDown)
 
+const inputBox = document.getElementById('input')
 function onInputKeyDown(event) {
   
 }
+
