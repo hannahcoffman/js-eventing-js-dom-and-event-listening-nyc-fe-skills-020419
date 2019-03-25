@@ -12,4 +12,6 @@ function onClick() {
 
 main.addEventListener('click', onClick)
 
+// document level evetns: online/offline, global help button/scrolling 
+
 document.addEventListener('online/offline', onClick)
