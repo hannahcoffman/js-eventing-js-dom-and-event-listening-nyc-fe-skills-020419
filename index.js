@@ -21,7 +21,7 @@ main.addEventListener('click', onClick)
 // document.addEventListener('online/offline', onClick)
 
 function onKeyDown(event) {
-  console.log(event)
+  console.log(event.keyCode)
 }
 document.addEventListener('keydown' , onKeyDown)
 
