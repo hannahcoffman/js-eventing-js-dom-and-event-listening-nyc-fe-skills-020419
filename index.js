@@ -10,5 +10,5 @@ function onClick() {
   console.log('hey the click happened')
 }
 
-main.AddEventListener('click',onClick)
+main.addEventListener('click', onClick)
 
