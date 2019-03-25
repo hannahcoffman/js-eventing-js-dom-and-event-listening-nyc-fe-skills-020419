@@ -35,4 +35,17 @@ function onInputKeyDown(event) {
 }
 inputBox.addEventListener('keydown', onInputKeyDown)
 
+const p = document.getElementById('yellow')
+
+function onYellowClick(){
+  
+}
+
+p.addEventListener('click', (event) => {
+  console.log(event)
+})
+
+
+// anonymous arrow functions
+// ES6 Javascript (in 2015) 
 
