@@ -25,8 +25,9 @@ function onKeyDown(event) {
 }
 document.addEventListener('keydown' , onKeyDown)
 
-const inputBox = document.getElementById('input')
+const inputBox = document.getElementById('sup')
+
 function onInputKeyDown(event) {
-  
 }
 
+inputBox.addEventListener('keydown', onInputKeyDown)
