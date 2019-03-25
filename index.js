@@ -12,4 +12,4 @@ function onClick() {
 
 main.addEventListener('click', onClick)
 
-document.addEventListener
+document.addEventListener('online/offline', onClick)
