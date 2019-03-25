@@ -65,6 +65,7 @@ const divs = document.querySelectorAll('div')
 for (let div of divs) {
   div.addEventListener('click', (event) =>{
     console.log(event)
+    event.stopPropagation() // stops bubbling from happening 
   })
 }
 // array [div1, div2]
