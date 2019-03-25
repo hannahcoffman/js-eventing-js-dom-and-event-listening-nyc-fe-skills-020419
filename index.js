@@ -47,7 +47,16 @@ p.addEventListener('click', (event) => {
   p.style.backgroundColor = 'yellow'
 })
 
-
-// anonymous arrow functions
+// anonymous arrow functions (event) => {}
 // ES6 Javascript (in 2015) 
+
+// 1st step - always find the element first 
+
+const button = document.getElementById('plus')
+
+button.addEventListener('click', () => {
+  const newP = document.createElement('p')
+  newP.innerHTML = 'Congratulations!'
+  main.appendChild(newP)
+})
 
