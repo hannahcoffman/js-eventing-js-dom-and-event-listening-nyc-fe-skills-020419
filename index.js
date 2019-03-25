@@ -25,6 +25,6 @@ function onKeyDown(event) {
 }
 document.addEventListener('keydown' , onKeyDown)
 
-function onInputKeyDown(input) {
+function onInputKeyDown(event) {
   
 }
