@@ -43,6 +43,8 @@ function onYellowClick(){
 
 p.addEventListener('click', (event) => {
   console.log(event)
+  // how do we make something yellow? 
+  p.style.backgroundColor = 'yellow'
 })
 
 
